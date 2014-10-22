@@ -6,17 +6,20 @@ body {
 
 body {	
 	font-family: helvetica;
-	font-size: 14px;
+	font-size: 18px;
+	font-weight: lighter;
 	color: white;
-	margin: 50px 200px
+	margin: 200px 200px;
+	padding-bottom: 50px;
 }
 
 hr {
-	border-color: #905d67;
-	color: #905d67;
+	border-color: red;
+	color: red;
 	width: 50px;
-	height: 1px
-	
+	float: left;
+	padding: 0.50px;
+
 }
 
 a{
