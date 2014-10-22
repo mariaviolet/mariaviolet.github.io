@@ -1,14 +1,22 @@
 body {
-	background: #52596b;
-	background: url("https://raw.githubusercontent.com/mariaviolet/mariaviolet.github.io/master/Project-3/Unit3ProjectAssets/Assets/background.jpg");
-	background-size: cover;
-	background-position: center;
+	background-image: url("https://raw.githubusercontent.com/mariaviolet/mariaviolet.github.io/master/project-3/images/stripes.png"), url("https://raw.githubusercontent.com/mariaviolet/mariaviolet.github.io/master/project-3/images/background.jpg");
+	background-repeat: repeat-x; no-repeat;
+	background-size: auto, cover
+}
+
+body {	
+	font-family: helvetica;
+	font-size: 20px;
 	color: white;
+	margin: 150px 200px
 }
 
 hr {
-	width: 200px;
-	color: red;
+	border-color: #905d67;
+	color: #905d67;
+	width: 50px;
+	height: 1px
+	
 }
 
 a{
