@@ -1,0 +1,16 @@
+body {
+	background: #52596b;
+	background: url("https://raw.githubusercontent.com/mariaviolet/mariaviolet.github.io/master/Project-3/Unit3ProjectAssets/Assets/background.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+hr {
+	width: 200px;
+	color: red;
+}
+
+a{
+
+}
