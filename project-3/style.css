@@ -1,27 +1,18 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-image: url("images/stripes.png"), url("images/background.jpg");
-	background-repeat: repeat-x; no-repeat;
-	background-size: auto, auto;
-}
-
-body {	
+	background: url("images/stripes.png") repeat-x, url("images/background.jpg") no-repeat #525a6a;
+	background-size: auto, cover;
+	color: white;
 	font-family: helvetica;
 	font-size: 20px;
 	font-weight: lighter;
-	color: white;
-	margin: 200px 0 0 100px;
 }
-
+section { margin: 200px 0 0 100px; }
 hr {
-	background-color: #fa7377;
-	color: #fa7377;
-	height: 3px;
-	width: 50px;
-	float: left;
-	border: 0;
+	border: 1px #fa7377 solid;
 	margin: 20px 0 20px 0;
+	width: 50px;
 }
 p {
 	margin: 20px 0 0 0;
