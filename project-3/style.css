@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-image: url("project-3/images/stripes.png"), url("project-3/images/background.jpg");
+	background-image: url("images/stripes.png"), url("images/background.jpg");
 	background-repeat: repeat-x; no-repeat;
 	background-size: auto, auto;
 }
