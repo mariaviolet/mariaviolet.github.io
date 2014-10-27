@@ -1,27 +1,30 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
 body {
 	background-image: url("https://raw.githubusercontent.com/mariaviolet/mariaviolet.github.io/master/project-3/images/stripes.png"), url("https://raw.githubusercontent.com/mariaviolet/mariaviolet.github.io/master/project-3/images/background.jpg");
 	background-repeat: repeat-x; no-repeat;
-	background-size: auto, cover
+	background-size: auto, auto;
 }
 
 body {	
 	font-family: helvetica;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: lighter;
 	color: white;
-	margin: 200px 200px;
-	padding-bottom: 50px;
+	margin: 200px 0 0 100px;
 }
 
 hr {
-	border-color: red;
-	color: red;
+	background-color: #fa7377;
+	color: #fa7377;
+	height: 3px;
 	width: 50px;
 	float: left;
-	padding: 0.50px;
-
+	border: 0;
+	margin: 20px 0 20px 0;
 }
+p {
+	margin: 20px 0 0 0;
 
-a{
 
 }
