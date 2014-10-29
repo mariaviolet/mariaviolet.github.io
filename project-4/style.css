@@ -10,9 +10,10 @@ body {
 	font-family: helvetica, arial;
 	color: #000000;
 	text-align: center;
+	margin: 50px 0 50px 0;
 }
 h1{
-	margin: 0;
+	margin: 50px 0 100px 0;
 	text-align: center;
 }
 
@@ -20,12 +21,12 @@ h2 {
 	font-family: 'Ek Mukta', sans-serif;
 	font-size: 40px;
 	font-weight: bold;
+	letter-spacing: 4px;
 }
 
 p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
 	font-weight: lighter;
-
-
+	margin-bottom: 200px
 }
