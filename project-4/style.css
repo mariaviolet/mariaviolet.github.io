@@ -4,8 +4,9 @@ body {
 	background-image: url("tuckshop-beach.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Roboto Slab', helvetica, arial;
-	color: #000000;
+	background-color: #000;
+	font-family: helvetica, arial;
+	color: #000;
 	text-align: center;
 	margin: 50px 200px 200px 200px;
 }
@@ -13,19 +14,21 @@ body {
 	padding: 50px 200px 100px 200px;
 }
 .mainbody {
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.5);
 }
 h1 {
-	font-family: 'Ek Mukta', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 50px;
+	text-transform: uppercase;
 	font-weight: bold;
-	color: #000;
+	color: #fff;
 	letter-spacing: 4px;
 	padding-top: 50px
 }
 p {
+	font-family: 'Roboto Slab', sans-serif;
 	font-size: 20px;
-	color: #BFBEBE;
+	color: #fff;
 	font-weight: lighter;
 	padding: 20px 200px 50px 200px;
 	text-transform: 
