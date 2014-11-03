@@ -7,13 +7,8 @@ body {
 	font-family: 'Roboto Slab', helvetica, arial;
 	color: #000000;
 	text-align: center;
-	margin: 50px 0 50px 0;
+	margin: 50px 100px 50px 100px;
 }
-section{
-	margin: 50px 0 100px 0;
-
-}
-
 h1 {
 	font-family: 'Ek Mukta', sans-serif;
 	font-size: 40px;
@@ -24,5 +19,5 @@ h1 {
 p {
 	font-size: 20px;
 	font-weight: normal;
-	margin-bottom: 200px
+	padding: 300px
 }
