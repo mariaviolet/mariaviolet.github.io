@@ -7,7 +7,7 @@ body {
 }
 
 body {	
-	font-family: helvetica, arial;
+	font-family: 'Roboto Slab', helvetica, arial;
 	color: #000000;
 	text-align: center;
 	margin: 50px 0 50px 0;
@@ -25,8 +25,7 @@ h2 {
 }
 
 p {
-	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
-	font-weight: lighter;
+	font-weight: normal;
 	margin-bottom: 200px
 }
