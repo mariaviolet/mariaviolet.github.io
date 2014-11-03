@@ -5,7 +5,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #000;
-	font-family: helvetica, arial;
+	font-family: 'Roboto Slab', helvetica, arial;
 	color: #000;
 	text-align: center;
 	margin: 50px 200px 200px 200px;
@@ -17,7 +17,7 @@ body {
 	background-color: rgba(0,0,0,0.5);
 }
 h1 {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Ek Mukta', sans-serif;
 	font-size: 50px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -26,7 +26,6 @@ h1 {
 	padding-top: 50px
 }
 p {
-	font-family: 'Roboto Slab', sans-serif;
 	font-size: 20px;
 	color: #fff;
 	font-weight: lighter;
