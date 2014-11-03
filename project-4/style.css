@@ -1,11 +1,11 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:0; box-sizing: border-box; }
 
 body {
 	background-image: url("tuckshop-beach.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #000
-	font-family: 'Roboto Slab', helvetica, arial;
+	background-color: #000;
+	font-family: 'Roboto Slab', helvetica, arial;;
 	color: #000;
 	text-align: center;
 	margin: 50px 200px 200px 200px;
