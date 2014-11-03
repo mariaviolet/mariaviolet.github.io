@@ -5,10 +5,10 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #fff;
-	font-family: helvetica, arial;;
+	font-family: helvetica, arial;
 	color: #000;
 	text-align: center;
-	margin: 50px 200px 200px 200px;
+	margin: 50px 200px 50px 200px;
 }
 .logo{
 	padding: 50px 200px 100px 200px;
@@ -23,7 +23,7 @@ h1 {
 	font-weight: bold;
 	color: #fff;
 	letter-spacing: 4px;
-	padding-top: 50px
+	padding-top: 50px;
 }
 p {
 	font-family: 'Roboto Slab', serif;
@@ -31,6 +31,4 @@ p {
 	color: #fff;
 	font-weight: lighter;
 	padding: 20px 200px 50px 200px;
-	text-transform: 
-
 }
