@@ -8,20 +8,26 @@ body {
 	color: #000000;
 	text-align: center;
 	margin: 50px 200px 200px 200px;
-	padding: 100px
+}
+.logo{
+	padding: 50px 200px 100px 200px;
 }
 .mainbody {
-	background-color: rgba(0,0,0,0.5);
-	margin: 100px
+	background-color: rgba(0,0,0,0.3);
 }
 h1 {
 	font-family: 'Ek Mukta', sans-serif;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: bold;
+	color: #000;
 	letter-spacing: 4px;
+	padding-top: 50px
 }
 p {
 	font-size: 20px;
-	font-weight: normal;
-	padding: 50px 200px 200px 200px;
+	color: #BFBEBE;
+	font-weight: lighter;
+	padding: 20px 200px 50px 200px;
+	text-transform: 
+
 }
