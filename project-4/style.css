@@ -4,20 +4,17 @@ body {
 	background-image: url("ocean-tuckshop.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-body {	
 	font-family: 'Roboto Slab', helvetica, arial;
 	color: #000000;
 	text-align: center;
 	margin: 50px 0 50px 0;
 }
-h1{
+section{
 	margin: 50px 0 100px 0;
-	text-align: center;
+
 }
 
-h2 {
+h1 {
 	font-family: 'Ek Mukta', sans-serif;
 	font-size: 40px;
 	font-weight: bold;
