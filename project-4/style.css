@@ -5,7 +5,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #000;
-	font-family: 'Roboto Slab', helvetica, arial;;
+	font-family: helvetica, arial;;
 	color: #000;
 	text-align: center;
 	margin: 50px 200px 200px 200px;
@@ -26,6 +26,7 @@ h1 {
 	padding-top: 50px
 }
 p {
+	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
 	color: #fff;
 	font-weight: lighter;
