@@ -9,6 +9,10 @@ body {
 	color: #000;
 	text-align: center;
 }
+section {
+	margin:0 auto;
+	width:1200px;
+}
 .logo{
 	margin: 50px auto 100px auto;
 }
