@@ -1,0 +1,172 @@
+
+
+body{
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 24px;
+  padding: 13px 0;
+  color: #8E5BA6;
+}
+
+h2 {
+  font-size: 26px;
+  
+}
+
+p {
+  font-family: 'Fauna One', serif;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav{
+  font-size: 16px;
+  float: right;
+  padding: 10px;
+  margin: 30px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #333;
+  margin: 30px;
+  display: inline-block;
+}
+
+section{
+  color: white;
+  overflow: auto;
+  float: left;
+  clear: both;
+}
+
+div {
+  display: block;
+  clear: both;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 18px 0;
+  clear: both;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  float: left;
+  clear: both;
+  width: auto;
+  padding: 10px
+}
+#hero {
+  background-color: #000;
+  margin: 0 auto;
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+#about {
+  font-size: 12px;
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 20px;
+  width: 20%;
+  height: 100px;
+}
+
+#services {
+  font-size: 12px;
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 20px;
+  width: 20%;
+  height: 100px;
+  border-left: 1px solid #797979;
+}
+
+#blog {
+  font-size: 12px;
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 20px;
+  width: 20%;
+  height: 100px;
+  border-left: 1px solid #797979;
+
+}
+
+#contact {
+  font-size: 12px;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 20px;
+  width: 20%;
+  height: 100px;
+  border-left: 1px solid #797979;
+}
+
+#about-image{
+  display: inline-block;
+  margin: 10px 50px;
+  width: 33%;
+  float: left;
+  clear: both;
+}
+
+#about-details{
+  font-size: 12px;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 20px;
+  width: 50%;
+  height: 350px;
+  border-left: 1px solid #797979;
+}
+
+.work{
+  font-size: 12px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px;
+  width: 30%;
+  height: auto;
+  border-bottom: 1px solid #797979;
+  float: left;
+  clear: none;
+}
+
+.blog-post{
+  float: left;
+  clear: left;
+  font-size: 12px;
+  margin:  0 auto;
+  padding: 20px;
+  border-bottom: 1px solid #797979;
+}
+
+li {
+  float: left;
+  width: 50%;
+  height: 100px;
+  outline: 2px solid #222222;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+  background: white;
+  
+}
