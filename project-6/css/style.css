@@ -143,6 +143,9 @@ img {
 
 #about-image{
   display: inline-block;
+  width: auto;
+  height: auto;
+   margin: 10px 10px;
 }
 
 #about-details{
