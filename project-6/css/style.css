@@ -107,6 +107,7 @@ img {
   padding: 20px;
   width: 20%;
   height: 100px;
+  float: left;
 }
 
 #services {
