@@ -108,7 +108,7 @@ img {
   margin: 0 auto;
   padding: 20px;
   width: 25%;
-  height: 100px;
+  height: auto;
   border-left: 1px solid #797979;
 }
 
@@ -118,7 +118,7 @@ img {
   margin: 0 auto;
   padding: 20px;
   width: 25%;
-  height: 100px;
+  height: auto;
   border-left: 1px solid #797979;
 }
 
@@ -128,7 +128,7 @@ img {
   margin: 0 auto;
   padding: 20px;
   width: 25%;
-  height: 100px;
+  height: auto;
   border-left: 1px solid #797979;
 
 }
@@ -139,7 +139,7 @@ img {
   margin: 0 auto;
   padding: 20px;
   width: 25%;
-  height: 100px;
+  height: auto;
   border-left: 1px solid #797979;
 }
 
