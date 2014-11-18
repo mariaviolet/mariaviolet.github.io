@@ -103,7 +103,8 @@ img {
 }
 
 #about {
- font-size: 16px;
+  font-size: 16px;
+  letter-spacing: 2px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
