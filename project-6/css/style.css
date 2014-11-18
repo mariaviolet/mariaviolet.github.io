@@ -104,7 +104,7 @@ img {
 
 #about {
   font-size: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
@@ -115,6 +115,7 @@ img {
 
 #services {
   font-size: 16px;
+  letter-spacing: 1px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
@@ -125,6 +126,7 @@ img {
 
 #blog {
  font-size: 16px;
+ letter-spacing: 1px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
@@ -136,6 +138,7 @@ img {
 
 #contact {
   font-size: 16px;
+  letter-spacing: 1px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
