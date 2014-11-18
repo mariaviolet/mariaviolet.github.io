@@ -3,12 +3,14 @@
 body{
   font-family: 'Oxygen', sans-serif;
   width: 1200px;
+  border: 1px solid #797979;
 }
 
 h1, h2 {
   font-weight: 800;
   text-transform: uppercase;
   display: inline-block;
+  border: 1px solid #797979;
 }
 
 h1 {
@@ -48,6 +50,7 @@ nav{
   float: right;
   padding: 10px;
   margin: 30px;
+  border: 1px solid #797979;
 }
 
 nav a{
@@ -55,6 +58,7 @@ nav a{
   color: #333;
   margin: 30px;
   display: inline-block;
+  border: 1px solid #797979;
 }
 
 section{
@@ -62,11 +66,13 @@ section{
   overflow: auto;
   float: left;
   clear: both;
+  border: 1px solid #797979;
 }
 
 div {
   display: block;
   clear: both;
+  border: 1px solid #797979;
 }
 
 footer {
@@ -74,6 +80,7 @@ footer {
   text-align: center;
   padding: 18px 0;
   clear: both;
+  border: 1px solid #797979;
 }
 
 img {
@@ -179,4 +186,4 @@ img {
      clear: both;
      height: 0;
 }
-* {box-sizing:border-box; }
+* { margin:0; padding:0; box-sizing:border-box; }
