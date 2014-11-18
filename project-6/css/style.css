@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Oxygen', sans-serif;
+  width: 1200px;
 }
 
 h1, h2 {
@@ -25,6 +26,17 @@ p {
   font-family: 'Fauna One', serif;
   color: #333;
 }
+
+li {
+  float: left;
+  width: 50%;
+  height: 100px;
+  outline: 2px solid #222222;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+  background: white;
+  }
 
 ul {
   list-style: none;
@@ -159,14 +171,3 @@ img {
   border-bottom: 1px solid #797979;
 }
 
-li {
-  float: left;
-  width: 50%;
-  height: 100px;
-  outline: 2px solid #222222;
-  text-align: center;
-  line-height: 100px;
-  color: black;
-  background: white;
-  
-}
