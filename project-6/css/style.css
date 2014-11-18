@@ -68,7 +68,6 @@ section{
   color: white;
   overflow: auto;
   float: left;
-  clear: both;
   border: 1px solid #797979;
 }
 
