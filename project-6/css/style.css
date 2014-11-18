@@ -174,7 +174,7 @@ img {
 
 .blog-post-img-lg {
   float: left;
-  clear: left;
+  clear: none;
   margin:  10px 10px;
   padding: 20px;
   border-bottom: 1px solid #797979;
@@ -188,15 +188,13 @@ img {
 
 .blog-post-img-sm{
   float: left;
-  clear: left;
+  clear: none;
   margin:  10px 10px;
   padding: 20px;
   border-bottom: 1px solid #797979;
 }
 
 .blog-post-sm{
-  float: left;
-  clear: left;
   margin:  10px 10px;
   padding: 20px;
   border-bottom: 1px solid #797979;
