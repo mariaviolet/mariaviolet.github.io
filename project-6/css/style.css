@@ -28,6 +28,8 @@ h2 {
 p {
   font-family: 'Fauna One', serif;
   color: #333;
+  font-size: 16px;
+  letter-spacing: 1px;
   padding: 5px 5px 10px 5px;
   border: 1px solid #797979;
 }
@@ -103,8 +105,6 @@ img {
 }
 
 #about {
-  font-size: 16px;
-  letter-spacing: 1px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
@@ -114,8 +114,6 @@ img {
 }
 
 #services {
-  font-size: 16px;
-  letter-spacing: 1px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
@@ -125,8 +123,6 @@ img {
 }
 
 #blog {
- font-size: 16px;
- letter-spacing: 1px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
@@ -137,8 +133,6 @@ img {
 }
 
 #contact {
-  font-size: 16px;
-  letter-spacing: 1px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
