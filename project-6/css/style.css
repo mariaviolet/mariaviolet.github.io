@@ -103,13 +103,13 @@ img {
 }
 
 #about {
-  font-size: 12px;
+ font-size: 12px;
   display: inline-block;
   margin: 0 auto;
   padding: 20px;
   width: 20%;
   height: 100px;
-  float: left;
+  border-left: 1px solid #797979;
 }
 
 #services {
@@ -123,9 +123,9 @@ img {
 }
 
 #blog {
-  font-size: 12px;
+ font-size: 12px;
   display: inline-block;
-  margin: 20px 10px;
+  margin: 0 auto;
   padding: 20px;
   width: 20%;
   height: 100px;
@@ -136,7 +136,7 @@ img {
 #contact {
   font-size: 12px;
   display: inline-block;
-  margin: 10px 10px;
+  margin: 0 auto;
   padding: 20px;
   width: 20%;
   height: 100px;
