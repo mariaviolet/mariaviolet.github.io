@@ -21,6 +21,7 @@ h1 {
 h2 {
   font-size: 24px;
   color: #8E5BA6;
+  padding: 5px 5px 10px 5px;
   
 }
 
@@ -113,7 +114,7 @@ img {
 #services {
   font-size: 12px;
   display: inline-block;
-  margin: 20px 10px;
+  margin: 0 auto;
   padding: 20px;
   width: 20%;
   height: 100px;
