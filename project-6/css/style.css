@@ -172,13 +172,22 @@ img {
   clear: none;
 }
 
-.blog-post-large{
+.blog-post-img-lg {
   float: left;
   clear: left;
   margin:  10px 10px;
   padding: 20px;
   border-bottom: 1px solid #797979;
 }
+
+.blog-post-lg {
+  float: left;
+  clear: left;
+  margin:  10px 10px;
+  padding: 20px;
+  border-bottom: 1px solid #797979;
+}
+
 
 .blog-post-small{
   float: left;
