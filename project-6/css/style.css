@@ -164,7 +164,7 @@ img {
 .work{
   font-size: 12px;
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 500px 0 auto;
   padding: 20px;
   width: 30%;
   height: auto;
