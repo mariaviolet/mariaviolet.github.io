@@ -3,13 +3,8 @@
 body{
   font-family: 'Oxygen', sans-serif;
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   border: 1px solid #797979;
-}
-
-main{
-
-
 }
 
 h1, h2 {
