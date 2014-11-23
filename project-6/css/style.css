@@ -100,7 +100,7 @@ img {
 }
 
 #hero {
-  background-color: #000;
+  background-color: #fff;
   margin: 0 auto;
   width: 100%;
   float: left;
@@ -175,7 +175,7 @@ img {
 
 .headline-text-blue{
   color: #00BCE4;
-  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'Fauna One', 'Trebuchet MS', Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
