@@ -195,7 +195,6 @@ img {
   margin:  10px 10px;
   padding: 20px;
   border-bottom: 1px solid #797979;
-  float: right;
 }
 
 .blog-post-img-sm{
@@ -210,6 +209,11 @@ img {
   margin:  10px 10px;
   padding: 20px;
   border-bottom: 1px solid #797979;
+}
+
+#form-content{
+  width: 30%;
+  margin: auto;
 }
 
 .clearfix:after {
