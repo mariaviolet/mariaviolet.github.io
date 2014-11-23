@@ -173,6 +173,15 @@ img {
   clear: none;
 }
 
+.headline-text-blue{
+  color: #00BCE4;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+
 .blog-post-img-lg {
   float: left;
   clear: both;
