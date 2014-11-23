@@ -212,8 +212,8 @@ img {
 }
 
 #form-content{
-  width: 30%;
-  margin: auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .clearfix:after {
