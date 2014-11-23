@@ -10,34 +10,55 @@
 
   <body>
     <header>
-      <a href="index.html"><img src="sunday-creative-logo.png" alt="sunday creative link to homepage"></a>
+      <a href="index.html"><img id="logo" src="sunday-creative-logo.png" alt="sunday creative link to homepage"></a>
        <nav>
-        <a href="about.html">ABOUT US</a>
-        <a href="work.html">OUR WORK</a>
-        <a href="blog.html">BLOG</a>
-        <a href="contact.html">CONTACT US</a>
-         </nav>
-         </header>
+       <ul>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="work.html">OUR WORK</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        </nav>
+    </header>
 
 <main>
-<section id="form-content">
-    <div>
+<section>
+    <div id="form-content">
       <h2>Say "Hello"</h2>
       <p>Lorem ipsum dolor sit amet, mel agam cetero eleifend ex, iisque mediocritatem cum cu.</p>
     </div>
-  </section>
-  <section id="form">
-    <div>
-     <form>
-      <p>First name:</p>
-      <p><input type="text" name="firstname"></p>
-      <p>Last name:</p>
-      <p><input type="text" name="lastname"></p>
-      <p>Email:</p>
-      <p><input type="text" name="email"></p>
-      <p>Comments:</p>
-      <p><input type="text" name="comments"></p>
-      <p><input type="submit" value="Submit"></p>
+
+    <form>
+    <div class="form">
+     <label>First name:
+      <input type="text" name="firstname" size="50" maxlength="50">
+      </label>
+      </div>
+      
+      <div class="form">
+      <label>Last name:
+      <input type="text" name="lastname" size="50" maxlength="50">
+      </label>
+      </div>
+      
+      <div class="form">
+      <label>Email:
+      <input type="text" name="email" size="50" maxlength="50">
+      </label>
+      </div>
+
+      <div class="form-comment">
+      <label>Comments:
+      <textarea name="comments"></textarea>
+      </label>
+      </div>
+
+      <div>
+      <label>
+      <input id="sumbit" type="submit" value="Send"></label>
+      </label>
+      </div>
+
       </form>
       </div>
     </section>

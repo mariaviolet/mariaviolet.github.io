@@ -1,10 +1,15 @@
 
 
 body{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Oxygen', Helvetica, Arial, sans-serif;
   width: 1200px;
   height: 100%;
   margin: auto;
+  border: 1px solid #797979;
+}
+
+header{
+  padding: 50px 50px 50px 50px;
   border: 1px solid #797979;
 }
 
@@ -16,7 +21,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 26px;
   
 }
 
@@ -24,7 +29,6 @@ h2 {
   font-size: 24px;
   color: #8E5BA6;
   padding: 5px 5px 10px 5px;
-  
 }
 
 p {
@@ -37,26 +41,21 @@ p {
   line-height: initial;
 }
 
-li {
-  float: left;
-  width: 50%;
-  height: 100px;
-  outline: 2px solid #222222;
-  text-align: center;
-  line-height: 100px;
-  color: black;
-  background: white;
-  }
-
 ul {
   list-style: none;
   margin: 0;
 }
 
+li {
+  display: inline;
+  text-align: center;
+  color: black;
+  background: white;
+}
+
 nav{
   font-size: 16px;
   float: right;
-  padding: 10px;
   margin: 30px;
   border: 1px solid #797979;
 }
@@ -70,9 +69,12 @@ nav a{
 }
 
 section{
+  width: auto;
+  margin: 50px 0 0 0;
   color: white;
   overflow: auto;
   float: left;
+  clear: none;
   border: 1px solid #797979;
 }
 
@@ -85,25 +87,21 @@ div {
 footer {
   font-size: 14px;
   text-align: center;
-  padding: 18px 0;
+  padding: 50px 0 0 0;
   clear: both;
   border: 1px solid #797979;
 }
 
 img {
   display: block;
-  margin: 0 auto;
-  float: left;
-  clear: both;
+  margin: auto;
   width: auto;
-  padding: 30px;
   border: 1px solid #797979;
 }
 
-#hero {
-  background-color: #fff;
-  height: 500px;
-  width: 100%;
+#logo{
+  float: left;
+  clear: none;
 }
 
 #about {
@@ -131,7 +129,6 @@ img {
   width: 25%;
   height: auto;
   border-left: 1px solid #797979;
-
 }
 
 #contact {
@@ -143,77 +140,149 @@ img {
   border-left: 1px solid #797979;
 }
 
+#hero {
+  display: inline-block;
+  background-color: #000;
+  margin: 50px 0 50px 0;
+  height: 500px;
+  width: 100%;
+  padding: 20px;
+  float: left;
+  clear: both;
+}
+
+#headline-text-blue{
+  display: block;
+  margin: 50px 20px;
+  font-style: normal;
+  font-size: 100px;
+  color: #00BCE4;
+  font-family: 'Futura', Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+  font-variant: normal;
+  font-weight: 500;
+}
+
+#headline-text-white{
+  display: block;
+  margin: 50px 20px;
+  font-style: normal;
+  font-size: 80px;
+  color: #fff;
+  font-family: 'Futura', Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+  font-variant: normal;
+  font-weight: 500;
+}
+
 #about-image{
   display: inline-block;
-  width: auto;
+  padding: 20px;
+  width: 50%;
   height: auto;
-  margin: 10px 10px;
   float: left;
   clear: both;
 }
 
 #about-details{
   display: inline-block;
-  margin: 10px 10px;
+  margin: auto;
   padding: 20px;
   width: 50%;
-  height: 350px;
+  height: auto;
   border-left: 1px solid #797979;
 }
 
-.work{
-  font-size: 12px;
+.work-image{
   display: inline-block;
-  margin: 0 500px 0 auto;
   padding: 20px;
-  width: 30%;
+  width: 50%;
   height: auto;
-  border-bottom: 1px solid #797979;
   float: left;
   clear: both;
+  border-bottom: 1px solid #797979;
 }
 
-.headline-text-blue{
-  color: #00BCE4;
-  font-family: 'Fauna One', 'Trebuchet MS', Arial, sans-serif;
-  font-size: 60px;
-  text-transform: capitalize;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
+.work-content{
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  border-bottom: 1px solid #797979;
 }
 
 .blog-post-img-lg {
-  float: left;
-  clear: both;
-  margin:  10px 10px;
+  margin: auto;
   padding: 20px;
+  width: auto;
+  height: auto;
   border-bottom: 1px solid #797979;
 }
 
 .blog-post-lg {
-  margin:  10px 10px;
+  margin:  auto;
   padding: 20px;
+  width: 80%;
+  height: auto;
   border-bottom: 1px solid #797979;
 }
 
 .blog-post-img-sm{
+  display: inline-block;
+  padding: 20px;
+  width: 50%;
+  height: auto;
   float: left;
   clear: both;
-  margin:  10px 10px;
-  padding: 20px;
   border-bottom: 1px solid #797979;
 }
 
 .blog-post-sm{
-  margin:  10px 10px;
+  display: inline-block;
+  margin: auto;
   padding: 20px;
+  width: 50%;
+  height: auto;
   border-bottom: 1px solid #797979;
 }
 
 #form-content{
-  width: 30%;
-  margin: 0 auto;
+  display: inline-block;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  float: left;
+  clear: both;
+border-bottom: 1px solid #797979;
+}
+
+#form{
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  border-bottom: 1px solid #797979;
+}
+
+label{
+  font-size: 18px;
+  font-weight: 800;
+  color: #00BCE4;
+}
+
+textarea{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#submit{
+  border: none;
+  background: #00BCE4;
+  font-size: 14px;
+  font-weight: 800;
+  color: #000;
 }
 
 .clearfix:after {
