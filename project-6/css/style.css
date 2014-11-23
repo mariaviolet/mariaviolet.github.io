@@ -178,6 +178,7 @@ img {
   color: #00BCE4;
   font-family: 'Fauna One', 'Trebuchet MS', Arial, sans-serif;
   font-size: 24px;
+  text-transform: capitalize;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
