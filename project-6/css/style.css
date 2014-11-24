@@ -10,7 +10,6 @@ body{
 
 header{
   padding: 50px 50px 50px 50px;
-  border: 1px solid #797979;
 }
 
 h1, h2 {
@@ -79,8 +78,7 @@ section{
 }
 
 div {
-  display: block;
-  clear: both;
+  display: inline-block;
   border: 1px solid #797979;
 }
 
@@ -195,9 +193,9 @@ img {
 
 .work-image{
   display: inline-block;
+  margin: auto;
   padding: 20px;
   width: 50%;
-  height: auto;
   float: left;
   clear: both;
   border-bottom: 1px solid #797979;
@@ -213,6 +211,7 @@ img {
 }
 
 .blog-post-img-lg {
+  display: block;
   margin: auto;
   padding: 20px;
   width: auto;
@@ -221,6 +220,7 @@ img {
 }
 
 .blog-post-lg {
+  display: block;
   margin:  auto;
   padding: 20px;
   width: 80%;
@@ -254,19 +254,14 @@ img {
   height: auto;
   float: left;
   clear: both;
-border-bottom: 1px solid #797979;
 }
 
-#form{
+.form{
   display: inline-block;
   margin: auto;
   padding: 20px;
   width: 50%;
   height: auto;
-  border-bottom: 1px solid #797979;
-}
-
-label{
   font-size: 18px;
   font-weight: 800;
   color: #00BCE4;
