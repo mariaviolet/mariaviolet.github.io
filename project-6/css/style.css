@@ -5,18 +5,12 @@ body{
   width: 1200px;
   height: 100%;
   margin: auto;
-  border: 1px solid #797979;
-}
-
-header{
-  padding: 50px 50px 50px 50px;
 }
 
 h1, h2 {
   font-weight: 800;
   text-transform: uppercase;
   display: inline-block;
-  border: 1px solid #797979;
 }
 
 h1 {
@@ -34,9 +28,8 @@ p {
   font-family: 'Fauna One', serif;
   color: #333;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: .3px;
   padding: 5px 5px 10px 5px;
-  border: 1px solid #797979;
   line-height: initial;
 }
 
@@ -56,7 +49,6 @@ nav{
   font-size: 16px;
   float: right;
   margin: 30px;
-  border: 1px solid #797979;
 }
 
 nav a{
@@ -64,7 +56,11 @@ nav a{
   color: #333;
   margin: 30px;
   display: inline-block;
-  border: 1px solid #797979;
+}
+
+a{
+  text-decoration: none;
+  color: #8E5BA6;
 }
 
 section{
@@ -74,27 +70,23 @@ section{
   overflow: auto;
   float: left;
   clear: none;
-  border: 1px solid #797979;
 }
 
 div {
   display: inline-block;
-  border: 1px solid #797979;
 }
 
 footer {
   font-size: 14px;
   text-align: center;
-  padding: 50px 0 0 0;
+  padding: 50px 0 10px 0;
   clear: both;
-  border: 1px solid #797979;
 }
 
 img {
   display: block;
   margin: auto;
   width: auto;
-  border: 1px solid #797979;
 }
 
 #logo{
@@ -108,7 +100,6 @@ img {
   padding: 20px;
   width: 25%;
   height: auto;
-  border-left: 1px solid #797979;
 }
 
 #services {
@@ -117,7 +108,7 @@ img {
   padding: 20px;
   width: 25%;
   height: auto;
-  border-left: 1px solid #797979;
+  border-left: 1px solid #CCC;
 }
 
 #blog {
@@ -126,7 +117,7 @@ img {
   padding: 20px;
   width: 25%;
   height: auto;
-  border-left: 1px solid #797979;
+  border-left: 1px solid #CCC;
 }
 
 #contact {
@@ -135,12 +126,12 @@ img {
   padding: 20px;
   width: 25%;
   height: auto;
-  border-left: 1px solid #797979;
+  border-left: 1px solid #CCC;
 }
 
 #hero {
   display: inline-block;
-  background-color: #000;
+  background: #ccc;
   margin: 50px 0 50px 0;
   height: 500px;
   width: 100%;
@@ -163,12 +154,12 @@ img {
 
 #headline-text-white{
   display: block;
-  margin: 50px 20px;
+  margin: 20px 20px;
   font-style: normal;
-  font-size: 80px;
+  font-size: 70px;
   color: #fff;
   font-family: 'Futura', Helvetica, Arial, sans-serif;
-  text-transform: capitalize;
+  text-transform: lowercase;
   font-variant: normal;
   font-weight: 500;
 }
@@ -180,6 +171,8 @@ img {
   height: auto;
   float: left;
   clear: both;
+  border-right: 1px solid #CCC;
+
 }
 
 #about-details{
@@ -188,7 +181,11 @@ img {
   padding: 20px;
   width: 50%;
   height: auto;
-  border-left: 1px solid #797979;
+}
+
+#work-section{
+  border-bottom: 1px solid #CCC;
+  width: auto;
 }
 
 .work-image{
@@ -198,7 +195,6 @@ img {
   width: 50%;
   float: left;
   clear: both;
-  border-bottom: 1px solid #797979;
 }
 
 .work-content{
@@ -207,7 +203,11 @@ img {
   padding: 20px;
   width: 50%;
   height: auto;
-  border-bottom: 1px solid #797979;
+}
+
+#blog-section{
+  border-bottom: 1px solid #CCC;
+  width: auto;
 }
 
 .blog-post-img-lg {
@@ -216,7 +216,6 @@ img {
   padding: 20px;
   width: auto;
   height: auto;
-  border-bottom: 1px solid #797979;
 }
 
 .blog-post-lg {
@@ -225,7 +224,6 @@ img {
   padding: 20px;
   width: 80%;
   height: auto;
-  border-bottom: 1px solid #797979;
 }
 
 .blog-post-img-sm{
@@ -235,7 +233,6 @@ img {
   height: auto;
   float: left;
   clear: both;
-  border-bottom: 1px solid #797979;
 }
 
 .blog-post-sm{
@@ -244,20 +241,17 @@ img {
   padding: 20px;
   width: 50%;
   height: auto;
-  border-bottom: 1px solid #797979;
 }
 
 #form-content{
-  display: inline-block;
+  display: block;
+  margin: auto;
   padding: 20px;
-  width: 50%;
+  width: 80%;
   height: auto;
-  float: left;
-  clear: both;
 }
 
 .form{
-  display: inline-block;
   margin: auto;
   padding: 20px;
   width: 50%;
@@ -274,7 +268,7 @@ textarea{
 
 #submit{
   border: none;
-  background: #00BCE4;
+  background-color: #00BCE4;
   font-size: 14px;
   font-weight: 800;
   color: #000;
