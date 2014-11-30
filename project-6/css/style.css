@@ -136,7 +136,7 @@ top: 250px;
   padding: 20px;
   width: 25%;
   height: auto;
-   border: 1px solid #CCC;
+  border-left: 1px solid #fff;
 
 }
 
@@ -146,7 +146,7 @@ top: 250px;
   padding: 20px;
   width: 25%;
   height: auto;
-  border: 1px solid #CCC;
+  border-left: 1px solid #CCC;
 }
 
 #blog {
@@ -155,7 +155,7 @@ top: 250px;
   padding: 20px;
   width: 25%;
   height: auto;
-  border: 1px solid #CCC;
+  border-left: 1px solid #CCC;
 }
 
 #contact {
@@ -164,7 +164,7 @@ top: 250px;
   padding: 20px;
   width: 25%;
   height: auto;
-  border: 1px solid #CCC;
+  border-left: 1px solid #CCC;
 }
 
 #about-image{
