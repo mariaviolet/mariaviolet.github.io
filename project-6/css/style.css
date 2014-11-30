@@ -133,7 +133,7 @@ top: 250px;
 #about {
   display: inline-block;
   margin: 0 10px;
-  padding: 20px;
+  padding: 10px;
   width: 25%;
   height: auto;
   border-left: 1px solid #fff;
@@ -143,7 +143,7 @@ top: 250px;
 #services {
   display: inline-block;
   margin: 0 10px;
-  padding: 20px;
+  padding: 10px;
   width: 25%;
   height: auto;
   border-left: 1px solid #CCC;
@@ -152,7 +152,7 @@ top: 250px;
 #blog {
   display: inline-block;
   margin: 0 10px;
-  padding: 20px;
+  padding: 10px;
   width: 25%;
   height: auto;
   border-left: 1px solid #CCC;
@@ -161,7 +161,7 @@ top: 250px;
 #contact {
   display: inline-block;
   margin: 0 10px;
-  padding: 20px;
+  padding: 10px;
   width: 25%;
   height: auto;
   border-left: 1px solid #CCC;
