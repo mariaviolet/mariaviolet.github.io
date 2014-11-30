@@ -5,23 +5,23 @@ body{
   width: 1200px;
   height: 100%;
   margin: auto;
-}
-
-h1, h2 {
-  font-weight: 800;
-  text-transform: uppercase;
-  display: inline-block;
+  overflow: auto;
 }
 
 h1 {
+  display: inline-block;
+  font-weight: 800;
   font-size: 26px;
-  
+  text-transform: none;
 }
 
 h2 {
+  display: inline-block;
   font-size: 24px;
+  font-weight: 800;
   color: #8E5BA6;
   padding: 5px 5px 10px 5px;
+  text-transform: uppercase;
 }
 
 p {
@@ -55,7 +55,12 @@ nav a{
   text-decoration: none;
   color: #333;
   margin: 30px;
+  padding: 10px;
   display: inline-block;
+}
+
+nav a:hover { 
+    color: #00BCE4;
 }
 
 a{
@@ -67,9 +72,6 @@ section{
   width: auto;
   margin: 50px 0 0 0;
   color: white;
-  overflow: auto;
-  float: left;
-  clear: none;
 }
 
 div {
@@ -77,9 +79,11 @@ div {
 }
 
 footer {
+  color: #333;
   font-size: 14px;
   text-align: center;
   padding: 50px 0 10px 0;
+  float: right;
   clear: both;
 }
 
@@ -92,6 +96,38 @@ img {
 #logo{
   float: left;
   clear: none;
+}
+
+#hero{
+  background-image: url(watercolour.jpg); 
+}
+
+#hero-text{
+position: absolute;
+top: 250px;
+}
+
+#headline-blue{
+  display: block;
+  margin: 90px 300px 10px 60px;
+  font-style: normal;
+  font-size: 100px;
+  color: #00BCE4;
+  font-family: 'Futura', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#headline-white{
+  display: block;
+  margin: 10px 60px;
+  font-style: normal;
+  font-size: 60px;
+  color: #fff;
+  font-family: 'Futura', Helvetica, Arial, sans-serif;
+  text-transform: lowercase;
+  font-variant: normal;
+  font-weight: 500;
 }
 
 #about {
@@ -129,41 +165,6 @@ img {
   border-left: 1px solid #CCC;
 }
 
-#hero {
-  display: inline-block;
-  background: #ccc;
-  margin: 50px 0 50px 0;
-  height: 500px;
-  width: 100%;
-  padding: 20px;
-  float: left;
-  clear: both;
-}
-
-#headline-text-blue{
-  display: block;
-  margin: 50px 20px;
-  font-style: normal;
-  font-size: 100px;
-  color: #00BCE4;
-  font-family: 'Futura', Helvetica, Arial, sans-serif;
-  text-transform: capitalize;
-  font-variant: normal;
-  font-weight: 500;
-}
-
-#headline-text-white{
-  display: block;
-  margin: 20px 20px;
-  font-style: normal;
-  font-size: 70px;
-  color: #fff;
-  font-family: 'Futura', Helvetica, Arial, sans-serif;
-  text-transform: lowercase;
-  font-variant: normal;
-  font-weight: 500;
-}
-
 #about-image{
   display: inline-block;
   padding: 20px;
@@ -172,7 +173,6 @@ img {
   float: left;
   clear: both;
   border-right: 1px solid #CCC;
-
 }
 
 #about-details{
@@ -211,10 +211,10 @@ img {
 }
 
 .blog-post-img-lg {
-  display: block;
-  margin: auto;
+  display: inline-block;
+  position: relative;
   padding: 20px;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -243,35 +243,26 @@ img {
   height: auto;
 }
 
-#form-content{
-  display: block;
-  margin: auto;
+#contact-image{
+  display: inline-block;
   padding: 20px;
-  width: 80%;
+  width: 50%;
   height: auto;
+  float: left;
+  clear: both;
+  border-right: 1px solid #CCC;
 }
 
-.form{
+#contact-details{
+  display: inline-block;
   margin: auto;
   padding: 20px;
   width: 50%;
   height: auto;
-  font-size: 18px;
-  font-weight: 800;
+}
+
+a.email{
   color: #00BCE4;
-}
-
-textarea{
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-}
-
-#submit{
-  border: none;
-  background-color: #00BCE4;
-  font-size: 14px;
-  font-weight: 800;
-  color: #000;
 }
 
 .clearfix:after {
