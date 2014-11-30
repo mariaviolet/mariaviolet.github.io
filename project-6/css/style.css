@@ -110,7 +110,7 @@ top: 250px;
 
 #headline-blue{
   display: block;
-  margin: 90px 300px 10px 60px;
+  margin: 90px 10px 10px 60px;
   font-style: normal;
   font-size: 100px;
   color: #00BCE4;
@@ -133,37 +133,39 @@ top: 250px;
 
 #about {
   display: inline-block;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0 10px;
+  padding: 10px;
   width: 25%;
   height: auto;
+   border: 1px solid #CCC;
+
 }
 
 #services {
   display: inline-block;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0 10px;
+  padding: 10px;
   width: 25%;
   height: auto;
-  border-left: 1px solid #CCC;
+  border: 1px solid #CCC;
 }
 
 #blog {
   display: inline-block;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0 10px;
+  padding: 10px;
   width: 25%;
   height: auto;
-  border-left: 1px solid #CCC;
+  border: 1px solid #CCC;
 }
 
 #contact {
   display: inline-block;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0 10px;
+  padding: 10px;
   width: 25%;
   height: auto;
-  border-left: 1px solid #CCC;
+  border: 1px solid #CCC;
 }
 
 #about-image{
