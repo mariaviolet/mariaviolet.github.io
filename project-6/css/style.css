@@ -80,7 +80,7 @@ div {
 
 footer {
   color: #333;
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
   padding: 50px 0 10px 0;
   float: right;
@@ -99,7 +99,7 @@ img {
 }
 
 #hero{
-  background-image: url(watercolour.jpg); 
+  background-image: url(images/watercolour.jpg); 
   padding: 20px;
 }
 
@@ -187,7 +187,7 @@ top: 250px;
   height: auto;
 }
 
-#work-section{
+.work-section{
   border-bottom: 1px solid #CCC;
   width: auto;
 }
@@ -209,7 +209,7 @@ top: 250px;
   height: auto;
 }
 
-#blog-section{
+.blog-section{
   border-bottom: 1px solid #CCC;
   width: auto;
 }
