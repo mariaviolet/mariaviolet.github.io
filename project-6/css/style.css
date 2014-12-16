@@ -99,8 +99,12 @@ img {
 }
 
 #hero{
-  background-image: url(images/watercolour.jpg); 
+  background-image: url("images/watercolour.jpg");
+  width: 1200px;
+  height: 500px; 
   padding: 20px;
+  float: left;
+  clear: none;
 }
 
 #hero-text{
