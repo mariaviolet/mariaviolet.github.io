@@ -100,7 +100,7 @@ img {
 #hero{
   background: #fff url("watercolour.jpg") no-repeat center;
   width: 1200px;
-  height: 500px; 
+  height: auto; 
   padding: 20px;
   float: left;
   clear: none;
