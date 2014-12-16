@@ -99,7 +99,9 @@ img {
 }
 
 #hero{
-  background-image: url("images/watercolour.jpg");
+  background-image: url("watercolour.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   width: 1200px;
   height: 500px; 
   padding: 20px;
