@@ -99,10 +99,10 @@ img {
 
 #hero{
   background: #fff url("watercolour.jpg") no-repeat center;
+  background-size: cover;
   width: 1200px;
-  height: auto; 
+  height: 500px; 
   float: left;
-  clear: none;
 }
 
 #hero-text{
