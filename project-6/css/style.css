@@ -12,7 +12,7 @@ h1 {
   display: inline-block;
   color: #8E5BA6;
   font-weight: 800;
-  font-size: 1.7em;
+  font-size: 1.8em;
   text-transform: none;
   padding: .3em .3em .4em .3em;
   text-transform: uppercase;
@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   display: inline-block;
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: 800;
   color: #8E5BA6;
   padding: .3em .3em .4em .3em;
@@ -30,7 +30,7 @@ h2 {
 p {
   font-family: 'Fauna One', serif;
   color: #333;
-  font-size: .85em;
+  font-size: 1.1em;
   letter-spacing: 0.06em;
   padding: .3em .3em .4em .3em;
   line-height: initial;
@@ -49,7 +49,7 @@ li {
 }
 
 nav{
-  font-size: 1em;
+  font-size: 1.2em;
   float: right;
   margin: 2em;
 }
@@ -157,7 +157,7 @@ img {
 
 #about-image{
   display: inline-block;
-  padding: 1.5em;
+  padding: 3em;
   width: 50%;
   height: auto;
   float: left;
@@ -169,7 +169,7 @@ img {
   display: inline-block;
   margin: auto;
   float: right;
-  padding: 1.5em 4em 1.5em 1.5em;
+  padding: 2em;
   width: 50%;
   height: auto;
 }
@@ -212,7 +212,7 @@ img {
 .blog-post-lg {
   display: block;
   margin:  auto;
-  padding: 3em;
+  padding: 2em;
   width: 80%;
   height: auto;
 }
@@ -229,14 +229,14 @@ img {
 .blog-post-sm{
   display: inline-block;
   margin: auto;
-  padding: 3em;
+  padding: 2em;
   width: 50%;
   height: auto;
 }
 
 #contact-image{
   display: inline-block;
-  padding: 1.5em;
+  padding: 3em;
   width: 50%;
   height: auto;
   float: left;
@@ -248,7 +248,7 @@ img {
   display: inline-block;
   margin: auto;
   float: right;
-  padding: 1.5em 4em 1.5em 1.5em;
+  padding: 2em;
   width: 50%;
   height: auto;
 }

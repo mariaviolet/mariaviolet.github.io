@@ -1,16 +1,9 @@
-@media only screen and (max-width: 800px) { 
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
   body {
-  width: 40em;
+  min-width: 50%;
+  max-width: 85%;
   margin: auto;
   overflow: auto;
-  }
-
- #logo {
-    width: 30%;
-    display: block;
-    position: absolute;
-    left: 50%;
-    margin-left: -100px;
   }
 
   nav {
@@ -27,26 +20,34 @@
   }
 
   h1 {
-  font-size: 1.3em;
+  font-size: 1.6em;
   }
 
   h2 {
-  font-size: 1.1em;
+  font-size: 1.3em;
   }
 
-  #hero {
-  width: 30em;
-  height: 15em;
-  float: none;
+  p {
+  font-size: 1em;
+  letter-spacing: 0.065em;
+}
+
+
+ #logo {
+    width: 35%;
+    display: block;
+    position: absolute;
   }
 
-  #hero{
-  width: 75em;
-  height: 31.25em; 
+#hero{
+  background: #fff url("../watercolour800.jpg") no-repeat center;
+  background-size: cover;
+  width: 51em;
+  height: 21em; 
   float: left;
-  clear: both;
-  padding: 2em;
-  }
+  margin: 3em 2em 0 2em;
+  padding: 1em;
+}
 
   #headline-blue{
   margin: auto;
@@ -60,140 +61,88 @@
   text-align: center;
   }
 
-  #about {
+#homepage-link-about {
   display: block;
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   border-left: none;
-  border-bottom: .05em solid #fff;
   float: none;
   text-align: center;
-  } 
+}
 
-  #services {
+.homepage-links {
   display: block;
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto;
-  width: 80%;
-  border-left: none;
-  border-bottom: .05em solid #fff;
-  float: none;
-  text-align: center;
-  }
-
-  #blog {
-  display: block;
-  padding: 2em;
-  margin: 0 auto;
-  width: 80%;
-  border-left: none;
-  border-bottom: .05em solid #fff;
-  float: none;
-  text-align: center;
-  }
-
-  #contact {
-  display: block;
-  padding: 2em;
-  margin: 0 auto;
-  width: 80%;
+  width: 70%;
   border-left: none;
   float: none;
   text-align: center;
-  }
+}
 
 #about-image{
   display: block;
-  padding: 3em;
   width: 100%;
-  float: none;
   border-bottom: .1em solid #CCC;
+  border-right: none;
 }
 
 #about-details{
-  display: inline-block;
-  margin: auto;
-  padding: 3em;
-  width: 50%;
-  height: auto;
-}
-
-.work-section{
-  border-bottom: .1em solid #CCC;
-  width: auto;
-}
-
-.work-image{
-  display: inline-block;
-  margin: auto;
-  padding: 3em;
-  width: 50%;
-  float: left;
+  display: block;
+  width: 85%;
+  text-align: center;
+  float: none;
   clear: both;
 }
 
-.work-content{
-  display: inline-block;
-  margin: auto;
-  padding: 3em;
-  width: 50%;
-  height: auto;
+.work-image{
+  display: block;
+  width: 100%;
 }
 
-.blog-section{
-  border-bottom: .1em solid #CCC;
-  width: auto;
+.work-content{
+  display: block;
+  width: 85%;
+  height: auto;
+  text-align: center;
 }
 
 .blog-post-img-lg {
-  display: inline-block;
-  position: relative;
-  padding: 3em;
+  display: block;
   width: 100%;
   height: auto;
 }
 
 .blog-post-lg {
   display: block;
-  margin:  auto;
-  padding: 3em;
-  width: 80%;
-  height: auto;
+  width: 85%;
+  text-align: center;
 }
 
 .blog-post-img-sm{
-  display: inline-block;
-  padding: 3em;
-  width: 50%;
-  height: auto;
-  float: left;
-  clear: both;
+  display: block;
+  width: 100%;
 }
 
 .blog-post-sm{
-  display: inline-block;
-  margin: auto;
-  padding: 3em;
-  width: 50%;
-  height: auto;
+  display: block;
+  width: 85%;
+  text-align: center;
 }
 
 #contact-image{
-  display: inline-block;
-  padding: 3em;
-  width: 50%;
-  height: auto;
-  float: left;
-  clear: both;
-  border-right: .1em solid #CCC;
+  display: block;
+  width: 100%;
+  border-right: none;
+  border-bottom: .1em solid #CCC;
 }
 
 #contact-details{
-  display: inline-block;
-  margin: auto;
-  padding: 3em;
-  width: 50%;
-  height: auto;
+  display: block;
+  width: 85%;
+  text-align: center;
+  float: none;
+  clear: both;
 }
 }
