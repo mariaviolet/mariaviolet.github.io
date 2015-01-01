@@ -105,10 +105,20 @@ img {
 #hero{
   background: #fff url("../watercolour.jpg") no-repeat center;
   background-size: cover;
+<<<<<<< HEAD
   width: 75em;
   height: 31.25em; 
   float: left;
   padding: 2em;
+=======
+  width: 1200px;
+  height: 500px; 
+  float: left;
+  padding: 2em;
+}
+
+#hero-text{
+>>>>>>> FETCH_HEAD
 }
 
 #headline-blue{
