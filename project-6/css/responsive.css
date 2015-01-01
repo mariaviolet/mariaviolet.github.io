@@ -1,0 +1,199 @@
+@media only screen and (max-width: 800px) { 
+  body {
+  width: 40em;
+  margin: auto;
+  overflow: auto;
+  }
+
+ #logo {
+    width: 30%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+  }
+
+  nav {
+    font-size: .8em;
+    float: none;
+    display: block;
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+  }
+
+  nav a {
+  display: inline-block;
+  }
+
+  h1 {
+  font-size: 1.3em;
+  }
+
+  h2 {
+  font-size: 1.1em;
+  }
+
+  #hero {
+  width: 30em;
+  height: 15em;
+  float: none;
+  }
+
+  #hero{
+  width: 75em;
+  height: 31.25em; 
+  float: left;
+  clear: both;
+  padding: 2em;
+  }
+
+  #headline-blue{
+  margin: auto;
+  font-size: 2.5em;
+  text-align: center; 
+  }
+
+  #headline-white{
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+  }
+
+  #about {
+  display: block;
+  padding: 2em;
+  margin: 0 auto;
+  width: 80%;
+  border-left: none;
+  border-bottom: .05em solid #fff;
+  float: none;
+  text-align: center;
+  } 
+
+  #services {
+  display: block;
+  padding: 2em;
+  margin: 0 auto;
+  width: 80%;
+  border-left: none;
+  border-bottom: .05em solid #fff;
+  float: none;
+  text-align: center;
+  }
+
+  #blog {
+  display: block;
+  padding: 2em;
+  margin: 0 auto;
+  width: 80%;
+  border-left: none;
+  border-bottom: .05em solid #fff;
+  float: none;
+  text-align: center;
+  }
+
+  #contact {
+  display: block;
+  padding: 2em;
+  margin: 0 auto;
+  width: 80%;
+  border-left: none;
+  float: none;
+  text-align: center;
+  }
+
+#about-image{
+  display: block;
+  padding: 3em;
+  width: 100%;
+  float: none;
+  border-bottom: .1em solid #CCC;
+}
+
+#about-details{
+  display: inline-block;
+  margin: auto;
+  padding: 3em;
+  width: 50%;
+  height: auto;
+}
+
+.work-section{
+  border-bottom: .1em solid #CCC;
+  width: auto;
+}
+
+.work-image{
+  display: inline-block;
+  margin: auto;
+  padding: 3em;
+  width: 50%;
+  float: left;
+  clear: both;
+}
+
+.work-content{
+  display: inline-block;
+  margin: auto;
+  padding: 3em;
+  width: 50%;
+  height: auto;
+}
+
+.blog-section{
+  border-bottom: .1em solid #CCC;
+  width: auto;
+}
+
+.blog-post-img-lg {
+  display: inline-block;
+  position: relative;
+  padding: 3em;
+  width: 100%;
+  height: auto;
+}
+
+.blog-post-lg {
+  display: block;
+  margin:  auto;
+  padding: 3em;
+  width: 80%;
+  height: auto;
+}
+
+.blog-post-img-sm{
+  display: inline-block;
+  padding: 3em;
+  width: 50%;
+  height: auto;
+  float: left;
+  clear: both;
+}
+
+.blog-post-sm{
+  display: inline-block;
+  margin: auto;
+  padding: 3em;
+  width: 50%;
+  height: auto;
+}
+
+#contact-image{
+  display: inline-block;
+  padding: 3em;
+  width: 50%;
+  height: auto;
+  float: left;
+  clear: both;
+  border-right: .1em solid #CCC;
+}
+
+#contact-details{
+  display: inline-block;
+  margin: auto;
+  padding: 3em;
+  width: 50%;
+  height: auto;
+}
+}
