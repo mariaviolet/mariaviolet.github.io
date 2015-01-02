@@ -1,7 +1,7 @@
 @media only screen and (min-width: 300px) and (max-width: 1024px) { 
   body {
   min-width: 50%;
-  max-width: 85%;
+  max-width: 90%;
   margin: auto;
   overflow: auto;
   }
@@ -43,23 +43,23 @@
 #hero{
   background: #fff url("../watercolour800.jpg") no-repeat center;
   background-size: cover;
-  width: 51em;
+  width: 100%;
   height: 21em; 
   float: left;
-  margin: 0em 2em 0 2em;
-  padding: 1em;
+  margin: auto;
+  padding: auto;
 }
 
   #headline-blue{
-  margin: 1em 0 0 .5em;
+  margin: 1em 0 0 .0;
   font-size: 2.5em;
-  text-align: center; 
+  text-align: left; 
   }
 
   #headline-white{
-  margin: .3em 0 0 1em;
+  margin: .3em 0 0 0;
   font-size: 1.5em;
-  text-align: center;
+  text-align: left;
   }
 
 #homepage-link-about {
