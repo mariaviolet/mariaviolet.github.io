@@ -2,7 +2,7 @@
 
 body{
   font-family: 'Oxygen', Helvetica, Arial, sans-serif;
-  width: 80em;
+  max-width: 80em;
   height: 100%;
   margin: auto;
   overflow: auto;
@@ -105,7 +105,7 @@ img {
 #hero{
   background: #fff url("../watercolour.jpg") no-repeat center;
   background-size: cover;
-  width: 80em;
+  width: 10%;
   height: 32em; 
   float: left;
   padding: 2em;
