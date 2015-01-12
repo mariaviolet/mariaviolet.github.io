@@ -2,12 +2,34 @@
 <html>
 <head>
   <title>SUNDAY MAIL BY SUNDAY CREATIVE</title>
-</head>
+    <style type="text/css">
+      @media only screen and (max-device-width: 480px){
 
+        #maintable{
+         width: 80% ! important;
+         }
+
+        #sundaylogo{
+          display: block;
+        }
+
+        #smallsunflower{
+          background: #fff url("../sunflower-small.jpg") no-repeat center;
+          background-size: cover;
+        }
+
+        a {
+         display: block;
+         text-align: center;
+         padding: 10px ! important;
+        }
+    }
+    </style>
+</head>
 <body style="margin:0;">
-  <table width="800px" border="0" style="font-family: 'Oxygen', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5;" align="center">
+  <table width="800px" border="0" style="font-family: 'Oxygen', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5;" align="center" id-"maintable">
     <tr>
-      <th width="50%"><img id="logo" src="sunday-creative-logo.png" alt="sunday creative link to homepage"></th>
+      <th width="50%"><img id="logo" src="sunday-creative-logo.png" alt="sunday creative link to homepage" id="sundaylogo"></th>
       <td width="50%">
         <table cellspacing="25" align="right" border="0">
           <tr>
@@ -20,7 +42,7 @@
       </td>
     </tr>
     <tr>
-      <td colspan="2" align="center" style="background: #ffffff;"><img src="sunflower.jpg" style="width: 600px;" alt="Check out the Sunday Creative EMail Newsletter" title="Sunday Creative EMail Newsletter"></td>
+      <td colspan="2" align="center" style="background: #ffffff;"><img src="sunflower.jpg" style="width: 600px;" alt="Check out the Sunday Creative EMail Newsletter" title="Sunday Creative EMail Newsletter" id="smallsunflower"></td>
     </tr>
     <tr>
       <td width="50%" style="color: white; padding: 1em;" align="center" valign="top">
@@ -44,7 +66,6 @@
       <td width="50%" align="right" style="background: #fbd325; font-size: 12px; padding: 2em;"><a href="#" style="text-decoration: none; color: black;">UNSUBCRIBE TO SUNDAY MAIL</a></td>
     </tr>
   </table>
-
  
 </body>
 
