@@ -1,4 +1,4 @@
-@media only screen and (min-width: 300px) and (max-width: 1024px) { 
+@media only screen and (min-width: 500px) and (max-width: 760px) { 
   body {
   min-width: 50%;
   max-width: 90%;
@@ -10,14 +10,15 @@
     font-size: .9em;
     float: none;
     display: block;
-    position: relative;
-    margin: 3em 0 0 0;
+    margin: 0 auto;
+    text-align: center;
   }
 
   nav a {
-  display: block;
-  margin: auto;
-  padding: 1em 0 1em 0;
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  padding: 1em;
   }
 
   h1 {
@@ -57,28 +58,28 @@
   }
 
   #headline-white{
-  margin: .3em 0 0 0;
+  margin: .3em .3em 0 0;
   font-size: 1.5em;
   text-align: left;
   }
 
-#homepage-link-about {
-  display: block;
+.homepage-link-row-1 {
+  display: inline-block;
   padding: 1em;
   margin: 0 auto;
-  width: 70%;
+  width: 50%;
   border-left: none;
-  float: none;
+  float: left;
   text-align: center;
 }
 
-.homepage-links {
-  display: block;
+.homepage-link-row-2 {
+  display: inline-block;
   padding: 1em;
   margin: 0 auto;
-  width: 70%;
+  width: 50%;
   border-left: none;
-  float: none;
+  float: left;
   text-align: center;
 }
 
