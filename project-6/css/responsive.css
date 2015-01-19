@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) and (max-width: 760px) { 
+@media only screen and (min-width: 500px) and (max-width: 920px) { 
   body {
   min-width: 50%;
   max-width: 90%;
@@ -80,6 +80,156 @@
   width: 50%;
   border-left: none;
   float: left;
+  text-align: center;
+}
+
+#about-image{
+  display: block;
+  width: 100%;
+  border-bottom: .1em solid #CCC;
+  border-right: none;
+}
+
+#about-details{
+  display: block;
+  width: 85%;
+  text-align: center;
+  float: none;
+  clear: both;
+}
+
+.work-image{
+  display: block;
+  width: 100%;
+}
+
+.work-content{
+  display: block;
+  width: 85%;
+  height: auto;
+  text-align: center;
+}
+
+.blog-post-img-lg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.blog-post-lg {
+  display: block;
+  width: 85%;
+  text-align: center;
+}
+
+.blog-post-img-sm{
+  display: block;
+  width: 100%;
+}
+
+.blog-post-sm{
+  display: block;
+  width: 85%;
+  text-align: center;
+}
+
+#contact-image{
+  display: block;
+  width: 100%;
+  border-right: none;
+  border-bottom: .1em solid #CCC;
+}
+
+#contact-details{
+  display: block;
+  width: 85%;
+  text-align: center;
+  float: none;
+  clear: both;
+}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) { 
+  body {
+  min-width: 50%;
+  max-width: 90%;
+  margin: auto;
+  overflow: auto;
+  }
+
+  nav {
+    font-size: .8em;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  nav a {
+  display: block;
+  margin: 0 auto;
+  float: none;
+  padding: .5em;
+  }
+
+  h1 {
+  font-size: 1.5em;
+  }
+
+  h2 {
+  font-size: 1.2em;
+  }
+
+  p {
+  font-size: .8em;
+  letter-spacing: 0.065em;
+}
+
+
+ #logo {
+    float: none;
+    display: block;
+    position: relative;
+  }
+
+#hero{
+  background: #fff url("../watercolour800.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 22em; 
+  float: left;
+  margin: auto;
+  padding: auto;
+}
+
+  #headline-blue{
+  margin: 1em 0 0 .0;
+  font-size: 2em;
+  text-align: left; 
+  }
+
+  #headline-white{
+  margin: .3em .3em 0 0;
+  font-size: 1.2em;
+  text-align: left;
+  }
+
+.homepage-link-row-1 {
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  width: 75%;
+  border-left: none;
+  float: none;
+  text-align: center;
+}
+
+.homepage-link-row-2 {
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  width: 75%;
+  border-left: none;
+  float: none;
   text-align: center;
 }
 
